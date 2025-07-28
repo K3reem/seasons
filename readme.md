@@ -1,19 +1,19 @@
 # Seasons API with n8n Workflow
 
-**Industry:** API Development / Automation\
+**Industry:** API Development / Automation
 **Objective:** Provide astronomical season start dates and automate a daily countdown tweet using n8n.
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Setup](#setup)
-- [Usage](#usage)
-- [n8n Workflow](#n8n-workflow)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+* [Overview](#overview)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Setup](#setup)
+* [Usage](#usage)
+* [n8n Workflow](#n8n-workflow)
+* [Project Structure](#project-structure)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## Overview
 
@@ -21,17 +21,17 @@ Seasons API is a lightweight Flask service that calculates exact astronomical s
 
 ## Features
 
-- **Astronomical accuracy** powered by Skyfield.
-- **RESTful endpoint** `/seasons?year=YYYY` returns season dates as JSON.
-- **Automated workflow** (cron → HTTP → JS logic → Twitter).
-- **Error alerts** via email if tweeting fails.
+* **Astronomical accuracy** powered by Skyfield.
+* **RESTful endpoint** `/seasons?year=YYYY` returns season dates as JSON.
+* **Automated workflow** (cron → HTTP → JS logic → Twitter).
+* **Error alerts** via email if tweeting fails.
 
 ## Tech Stack
 
-- **Python 3.9+** (Flask)
-- **Skyfield** astronomy calculations
-- **n8n** workflow automation
-- **Render.com** deployment (free tier)
+* **Python 3.9+** (Flask)
+* **Skyfield** astronomy calculations
+* **n8n** workflow automation
+* **Render.com** deployment (free tier)
 
 ## Setup
 
@@ -76,9 +76,7 @@ Host: localhost:5000
 4. **Twitter** – Posts the countdown.
 5. **On Error** – Sends an email alert.
 
-
-
-## Project Structure
+## Project Structure Structure
 
 ```
 seasons-api/
@@ -98,4 +96,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## License
 
 MIT License © 2025 AbdulKareem Raed Abu Khadair
-
