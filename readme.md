@@ -18,9 +18,12 @@
 ## Overview
 
 Seasons API is a lightweight Flask service that calculates exact astronomical season start dates (equinoxes and solstices) for any year with Skyfield. An n8n workflow then fetches these dates each day, determines how many days remain until the next season, and tweets the countdown automatically.
-![X](https://github.com/user-attachments/assets/8d6a25af-b620-4dd7-9f8e-132201a1b8d6)
 
 <img width="698" height="173" alt="n8n" src="https://github.com/user-attachments/assets/a744b6e5-5e24-4bb9-b774-609619c0eb93" />
+
+
+![X](https://github.com/user-attachments/assets/8d6a25af-b620-4dd7-9f8e-132201a1b8d6)
+
 
 
 
