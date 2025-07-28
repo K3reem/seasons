@@ -22,6 +22,8 @@ Seasons API is a lightweight Flask service that calculates exact astronomical s
 <img width="698" height="173" alt="n8n" src="https://github.com/user-attachments/assets/a744b6e5-5e24-4bb9-b774-609619c0eb93" />
 
 
+
+
 ![X](https://github.com/user-attachments/assets/8d6a25af-b620-4dd7-9f8e-132201a1b8d6)
 
 
@@ -39,7 +41,7 @@ Seasons API is a lightweight Flask service that calculates exact astronomical s
 * **Python 3.9+** (Flask)
 * **Skyfield** astronomy calculations
 * **n8n** workflow automation
-* **Render.com** deployment (free tier)
+* **Render.com** deployment 
 
 ## Setup
 
