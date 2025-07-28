@@ -96,7 +96,7 @@ seasons-api/
 ├── Pictures/           # Workflow & tweet screenshots
 │   ├── n8n.png
 │   └── tweet.jpeg
-└── workflows/          # (optional) exported n8n JSON
+└── de421.bsp          
 ```
 
 ## Contributing
